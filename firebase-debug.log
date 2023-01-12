@@ -1,0 +1,177 @@
+[debug] [2022-11-06T22:25:54.439Z] ----------------------------------------------------------------------
+[debug] [2022-11-06T22:25:54.441Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-06T22:25:54.441Z] CLI Version:   11.16.0
+[debug] [2022-11-06T22:25:54.441Z] Platform:      win32
+[debug] [2022-11-06T22:25:54.442Z] Node Version:  v16.16.0
+[debug] [2022-11-06T22:25:54.442Z] Time:          Mon Nov 07 2022 03:55:54 GMT+0530 (India Standard Time)
+[debug] [2022-11-06T22:25:54.443Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-06T22:25:54.513Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-06T22:25:54.513Z] > authorizing via signed-in user (kunalsachdeva2910@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kunal\OneDrive\Desktop\Projects\trial\amazon-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-06T22:26:03.685Z] Using project from CLI flag: clone-593e7
+[debug] [2022-11-06T22:26:03.688Z] > refreshing access token with scopes: []
+[debug] [2022-11-06T22:26:03.691Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-11-06T22:26:03.691Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-06T22:26:04.071Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-11-06T22:26:04.072Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-06T22:26:04.083Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 [none]
+[debug] [2022-11-06T22:26:04.881Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 403
+[debug] [2022-11-06T22:26:04.881Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-06T22:26:04.882Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-06T22:26:05.220Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project clone-593e7. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-11-06T22:32:36.935Z] ----------------------------------------------------------------------
+[debug] [2022-11-06T22:32:36.937Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-06T22:32:36.937Z] CLI Version:   11.16.0
+[debug] [2022-11-06T22:32:36.937Z] Platform:      win32
+[debug] [2022-11-06T22:32:36.937Z] Node Version:  v16.16.0
+[debug] [2022-11-06T22:32:36.948Z] Time:          Mon Nov 07 2022 04:02:36 GMT+0530 (India Standard Time)
+[debug] [2022-11-06T22:32:36.948Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-06T22:32:37.023Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-06T22:32:37.024Z] > authorizing via signed-in user (kunalsachdeva2910@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kunal\OneDrive\Desktop\Projects\trial\amazon-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-06T22:32:48.873Z] Using project from CLI flag: clone-593e7
+[debug] [2022-11-06T22:32:48.875Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 [none]
+[debug] [2022-11-06T22:32:49.474Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 403
+[debug] [2022-11-06T22:32:49.474Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-06T22:32:49.474Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-06T22:32:49.833Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project clone-593e7. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-11-06T22:36:39.064Z] ----------------------------------------------------------------------
+[debug] [2022-11-06T22:36:39.066Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-06T22:36:39.066Z] CLI Version:   11.16.0
+[debug] [2022-11-06T22:36:39.066Z] Platform:      win32
+[debug] [2022-11-06T22:36:39.066Z] Node Version:  v16.16.0
+[debug] [2022-11-06T22:36:39.067Z] Time:          Mon Nov 07 2022 04:06:39 GMT+0530 (India Standard Time)
+[debug] [2022-11-06T22:36:39.068Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-06T22:36:39.142Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-06T22:36:39.143Z] > authorizing via signed-in user (kunalsachdeva2910@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kunal\OneDrive\Desktop\Projects\trial\amazon-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-06T22:36:44.870Z] Using project from CLI flag: clone-593e7
+[debug] [2022-11-06T22:36:44.873Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 [none]
+[debug] [2022-11-06T22:36:45.477Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 403
+[debug] [2022-11-06T22:36:45.477Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-06T22:36:45.477Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-06T22:36:45.760Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project clone-593e7. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-11-06T22:51:40.978Z] ----------------------------------------------------------------------
+[debug] [2022-11-06T22:51:40.980Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-06T22:51:40.980Z] CLI Version:   11.16.0
+[debug] [2022-11-06T22:51:40.980Z] Platform:      win32
+[debug] [2022-11-06T22:51:40.980Z] Node Version:  v16.16.0
+[debug] [2022-11-06T22:51:40.987Z] Time:          Mon Nov 07 2022 04:21:40 GMT+0530 (India Standard Time)
+[debug] [2022-11-06T22:51:40.987Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-06T22:51:41.055Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-06T22:51:41.055Z] > authorizing via signed-in user (kunalsachdeva2910@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\kunal\OneDrive\Desktop\Projects\trial\amazon-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-06T22:51:55.723Z] Using project from CLI flag: clone-593e7
+[debug] [2022-11-06T22:51:55.728Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 [none]
+[debug] [2022-11-06T22:51:56.681Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 403
+[debug] [2022-11-06T22:51:56.681Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-593e7 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-06T22:51:56.681Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-06T22:51:57.030Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\kunal\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project clone-593e7. Please make sure the project exists and your account has permission to access it.
